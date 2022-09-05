@@ -32,9 +32,6 @@ function App() {
 
   const getCelsius = () => (setIsCelsius(!isCelsius));
 
-  const found = "https://st3.depositphotos.com/8846918/15282/i/450/depositphotos_152827672-stock-photo-cloudy-blue-sky-background.jpg";
-
-  document.body.style = `background: ${found}`;
 
   return (
     <div className="App">
